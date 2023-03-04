@@ -118,7 +118,7 @@ export default function University({ navigation }) {
                             shadowRadius: 5 ,
                             shadowOffset : { width: 1, height: 10},
                         }}
-                        onPress={() => navigation.navigate('Login')}>
+                        onPress={() => navigation.navigate('Requests')}>
                         <Text style={{ color: 'black', fontWeight: '700', fontSize: 30 }}>
                             Requests
                         </Text>
@@ -134,16 +134,11 @@ const styles = StyleSheet.create({
         width: Dimensions.get('window').width,
         backgroundColor: '#121212',
     },
-    // title: {
-    //     fontSize: 20,
-    //     fontWeight: '800',
-    //     textAlign: 'center',
-    //     marginTop: 10,
-    //     color: 'white',
-    // },
     dateStyle: {
         textAlign: 'center',
         fontSize: 45,
-        color: 'white'
+        fontWeight: '800',
+        color: 'white',
+        marginTop: 25
     }
 });
