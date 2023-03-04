@@ -16,15 +16,29 @@ export default function Login({navigation}) {
         <TouchableOpacity
           style={{
             margin: 20,
-            backgroundColor: 'aqua',
+            backgroundColor: '#b0c17d',
             borderRadius: 20,
             padding: 10,
             justifyContent: 'center',
             alignItems: 'center',
           }}
-          onPress={() => navigation.navigate('HomeScreen')}>
+          onPress={() => navigation.navigate('University')}>
           <Text style={{color: 'black', fontWeight: '600', fontSize: 18}}>
-            Go to Home Page
+            Go to University Page
+          </Text>
+        </TouchableOpacity>
+        <TouchableOpacity
+          style={{
+            margin: 20,
+            backgroundColor: '#b0c17d',
+            borderRadius: 20,
+            padding: 10,
+            justifyContent: 'center',
+            alignItems: 'center',
+          }}
+          onPress={() => navigation.navigate('Map')}>
+          <Text style={{color: 'black', fontWeight: '600', fontSize: 18}}>
+            Go to Recipient Page
           </Text>
         </TouchableOpacity>
       </ScrollView>
