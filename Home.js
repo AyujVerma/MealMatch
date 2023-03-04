@@ -22,7 +22,7 @@ export default function HomeScreen({navigation}) {
             justifyContent: 'center',
             alignItems: 'center',
           }}
-          onPress={() => navigation.navigate('Login')}>
+          onPress={() => navigation.navigate('Map')}>
           <Text style={{color: 'black', fontWeight: '600', fontSize: 18}}>
             Go to Login Page
           </Text>
